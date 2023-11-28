@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiz - Toxicologia</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    Quiz - Toxicologia
+  </header>
+
+  <main>
+    <!-- Pergunta 21 -->
+<div class="question">
+  <p>A toxicidade de uma substância química refere-se à sua capacidade de causar dano em um órgão determinado, 
+    alterar os processos bioquímicos ou alterar um sistema enzimático. A determinação da toxicidade com base na Dose Letal (LD50) é um método comum utilizado para avaliar a toxicidade aguda de substâncias químicas e agentes biológicos. Avalie os dados estabelecidos no gráfico e opte pela alternativa 
+    verdadeira. </p>
+  <ul class="options">
+    <li><label><input type="radio" name="q21" value="a"> a. O agente A é mais tóxico que o agente B uma vez que requer menor concentração para aniquilar 50% de uma população. </label></li>
+    <li><label><input type="radio" name="q21" value="b"> O agente B é mais tóxico que o agente A uma vez que requer menor concentração para aniquilar 50% de uma população. </label></li>
+    <li><label><input type="radio" name="q21" value="c"> c. O agente A e B apresentam a mesma toxicidade uma vez que atingem a mesma intensidade de efeito indesejado.</label></li>
+    <li><label><input type="radio" name="q21" value="d"> d. O agente A e B não apresentam a toxicidade por atingirem a mesma intensidade de efeito, não permitindo o cálculo. </label></li>
+    <li><label><input type="radio" name="q21" value="e"> e.O agente B apresenta aproximadamente metade da toxicidade do agente A uma vez que requer menor concentração para aniquilar 50% de uma população. </label></li>
+  </ul>
+  <button class="answer" onclick="checkAnswer('b', 'q21')">Responder</button>
+</div>
+
+<!-- Pergunta 22 -->
+<div class="question">
+  <p>Em inúmeros ambientes de trabalho, encontram-se agentes químicos disseminados no ambiente de trabalho. A exposição a esses agentes possibilita a absorção e instalação de seus efeitos, caracterizando a intoxicação ocupacional. Com relação à absorção de agentes químicos no ambiente de trabalho, escolha entre as alternativas abaixo a que se refere corretamente à atitude a ser adotada para diminuir os riscos de intoxicação.</p>
+  <ul class="options">
+    <li><label><input type="radio" name="q22" value="a"> Em ambiente cuja exposição for a poeiras de 0,5 micras deve usar luvas e roupas impermeáveis diminuindo a absorção destes agentes.</label></li>
+    <li><label><input type="radio" name="q22" value="b"> Ambientes com exposição agentes voláteis requer uso de equipamentos enclausurados para inibir a exposição das vias aéreas.</label></li>
+    <li><label><input type="radio" name="q22" value="c"> Em ambiente cuja exposição for a agentes lipossolúveis, o uso de máscaras diminui a absorção destes agentes.</label></li>
+    <li><label><input type="radio" name="q22" value="d"> A absorção de agentes pela via oral não requer proteção, mesmo nos ambientes em que seja permitida a ingestão de alimentos.</label></li>
+    <li><label><input type="radio" name="q22" value="e"> A absorção de agentes pela via intramuscular deve ser protegida com luvas na manipulação de sólidos e secos, pois estes podem penetrar pela pele.</label></li>
+  </ul>
+  <button class="answer" onclick="checkAnswer('b', 'q22')">Responder</button>
+</div>
+
+<div class="question">
+  <p> O estudo da toxicocinética auxilia na escolha dos equipamentos de proteção individual, uma vez que estuda o processo de absorção dos tóxicos. </p>
+  <li><label><input type="radio" name="op1" value="V">Verdadeiro</label></li>
+  <li><label><input type="radio" name="op1" value="F">Falso</label></li>
+
+  <button class="answer" onclick="checkAnswer('V', 'op1')">Responder</button>
+  
+
+</div>
+
+<div class="question">
+  <p> O estudo da toxicodinâmica auxilia na escolha das ações terapêuticas que podem neutralizar, inibir ou diminuir a intensidade dos efeitos indesejados. </p>
+  <li><label><input type="radio" name="op2" value="V">Verdadeiro</label></li>
+  <li><label><input type="radio" name="op2" value="F">Falso</label></li>
+
+  <button class="answer" onclick="checkAnswer('V', 'op2')">Responder</button>
+</div>
+
+<div class="question">
+  <p> A toxicocinética auxilia na elucidação do mecanismo de ação dos agentes tóxicos uma vez que tenham sido absorvidos e distribuídos pelo corpo humano. </p>
+  <li><label><input type="radio" name="op3" value="V">Verdadeiro</label></li>
+  <li><label><input type="radio" name="op3" value="F">Falso</label></li>
+
+  <button class="answer" onclick="checkAnswer('V', 'op3')">Responder</button>
+</div>
+
+<div class="question">
+  <p> A toxicodinâmica estuda as características químicas que os tóxicos apresentam e permitem indicar a porta de entrada (penetração) do agente tóxico. </p>
+  <li><label><input type="radio" name="op4" value="V">Verdadeiro</label></li>
+  <li><label><input type="radio" name="op4" value="F">Falso</label></li>
+
+  <button class="answer" onclick="checkAnswer('V', 'op4')">Responder</button>
+</div>
+<div class="question">
+  <p>Dose letal de dois agentes químicos “A” e “B”Dose letal de dois agentes químicos “A” e “B”</p>
+  <img src="Dose letal.png" alt="Dose letal A e B">
+  <p>Em inúmeros ambientes de trabalhos, encontram-se agentes químicos disseminados no ambiente de trabalho. A exposição a estes agentes possibilita a sua absorção e instalação do seu efeito, caracterizando a intoxicação ocupacional. Com relação a absorção de agentes químicos no ambiente de trabalhos, Escolha entre as alternativas abaixo escolha a que referem corretamente a atitude, a ser adotada para diminuir dos riscos da intoxicação. </p>
+<ul class="options">
+  <li><label><input type="radio" name="q23"value="a">Em ambiente cuja exposição for a poeiras de 0,5 micras deve usar luvas e roupas impermeáveis diminuindo a absorção destes agentes. </label></li>
+</div><li><label><input type="radio" name="q23" value="b">Em ambiente cuja exposição for a agentes lipossolúveis o uso de máscaras diminui a absorção destes agentes.</label></li>
+<li><label><input type="radio" name="q23" value="c">Ambientes com exposição agentes voláteis requer uso de equipamentos enclausurados para inibir a exposição das vias aéreas. </label></li>
+<li><label><input type="radio" name="q23" value="d">A absorção de agentes pela oral, não requer proteção de absorção, mesmo nos ambientes seja permitida a ingestão de alimentos. </label></li>
+<li><label><input type="radio" name="q23" value="e">A absorção de agentes pela intramuscular deve ser protegida com luvas na manipulação de sólidos e secos por estes penetrarem pela pele.</label></li>
+</ul>
+<button class="answer" onclick="checkAnswer('c', 'q23')">Responder</button>
+</div>
+
+
+
+<div class="question">
+  <p>A extração liquida-liquida envolve a aplicação de duas fases líquidas imiscíveis, geralmente uma fase aquosa e uma fase orgânica, onde os compostos a serem separados são distribuídos de acordo com suas afinidades solubilidade. Analitos cujo pH é básico, deve se ajustar o pH da fase aquosa em que está solubilizado e Escolha e justifique o procedimento para realizar tal extração para tanto deve usar:  
+</p>
+  <textarea rows="4" cols="50" placeholder="Digite sua resposta aqui"></textarea>
+  <button class="answer" onclick="checkOpenEndedAnswer('Resposta:Adicionaria uma solução ácida para ajustar o pH da solução polar (aquosa) e manter o analito na forma não ionizada. Após o ajuste do pH adicionaria um solvente pouco polar para extrair  o analito não ionizado para esta fase. Permitindo após a sua evaporação a concentração do mesmo. ')">Responder</button>
+  
+</div>
+<button onclick="resetQuiz()">Reiniciar Quiz</button> 
+  
+
+
+</main>
+
+
+  
+  <footer>
+    Autor: Pedro Augusto da Costa Lindão
+  </footer>
+
+  <script>
+    function checkAnswer(correctOption, question) {
+      // Lógica de verificação de resposta (mantida igual)
+      var selectedOption = document.querySelector('input[name="' + question + '"]:checked');
+      if (selectedOption) {
+        if (selectedOption.value === correctOption) {
+          alert('Acertou...miseravi!');
+        } else {
+          alert('Po man... tu errou. faz denovo ae!');
+        }
+      } else {
+        alert('Por favor, selecione uma opção antes de responder.');
+      }
+    }
+    function checkOpenEndedAnswer(correctAnswer) {
+      alert('Resposta: ' + correctAnswer);
+    }
+
+    function resetQuiz() {
+      // Reseta os valores dos radio buttons
+      var radioButtons = document.querySelectorAll('input[type="radio"]');
+      radioButtons.forEach(function (radio) {
+        radio.checked = false;
+      });
+
+      // Reseta as respostas anteriores (ajuste conforme necessário)
+      alert('Aah shit... here we go again.');
+    }
+  </script>
+</body>
+
+</html>
